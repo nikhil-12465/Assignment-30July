@@ -1,0 +1,17 @@
+Aim:-
+ In this question we have given the coordinate (x,y) in which x is shown with the help of the x-axis and y is shown with the help of some values of the given array , a[i].
+  Now we have to find the maximum volume occupied by the container formed with the edges. In which the first edge is formed with the help of (x,0)and (x,a[i])
+   while the other edge is formed with the help of (m,0) and (m, a[j]). where x,m are the points on the x-axis and i,j are the indexes of the array
+
+algorithm:-
+
+1- initially  make two functions for the volume of the figure, one for the bottom cylinder and other for the remaining half cylinder 
+   taking the argument as radius and height.
+2- in main we create for loop from i = 0 to n.
+3-  then a nested for loop starting from j=i+1 to n.
+4-from here  radius is  half of j-i.
+5- For  height of  bottom cylinder and remaining part (half upper cylinder) use  condition  (arr[i] is greater or lesser than arr[j]).
+6- Now  volume  by adding both the function cylinder and remaining.
+7- here the  condition large < volume in the nested loop itself gives volume =large.
+
+Output = Now print the max volume stored as large.

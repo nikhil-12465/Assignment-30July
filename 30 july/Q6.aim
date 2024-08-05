@@ -1,0 +1,10 @@
+Aim:-
+
+We are given that a ball is falling on the ground with velocity v and at each bounce its velocity decreases by half, 
+Then find the number of bounces.
+
+algorithm:-
+
+1- initially take user input of velocity .
+2- iterate while loop until v!=0 and reduce the velocity by v/2 in each iterations.
+3- use a variable outside the the loop which intialize with 1 and increase its value by 1 in each itrations .

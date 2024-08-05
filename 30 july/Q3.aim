@@ -1,0 +1,8 @@
+Aim:-
+find the a ratio to power n but the iteration should be less than n.
+
+algorithm:-
+
+1- initially we have to get user input of base and power then make a function to calculate power .
+2- during the power calculation  we can make a variable which caalculate power(base,n/2)
+3- at last we make diffrent conditions on even ,odd and when power is 0  for solving these problem and return power 

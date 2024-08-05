@@ -1,0 +1,12 @@
+Aim:-
+
+We have given an array of n numbers and now we have to find the elements which follows a+b=c;
+
+algorithm:-
+
+1- initially insert an array and calculate its size
+2- make a for loop from i=0 to n;
+3- and in that make two nested for loop for j=i+1 to n  and k=0 to n;
+4- inside these loops we consider a case that k!=i and k!=j then print that combinations which follow a[i]+a[j]=a[k]
+
+

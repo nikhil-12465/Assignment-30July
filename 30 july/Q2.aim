@@ -1,0 +1,11 @@
+Aim:-
+
+We are given an array of n consecutive numbers and we have to find the one which is missing from it .
+condition:-
+ Without using any addition , subtraction, multiplication, division.
+ We are given that we have decimal,binary, hexadecimal representation.
+
+
+ algorithm:-
+
+ 

@@ -1,0 +1,14 @@
+Aim:-
+
+ Make an array b from the given array a of the same size from 1 to n such that b[i]
+ contains the product of element of a[i] but not the element present at that index.
+  
+algorithm:-
+
+1-initially we took user input of an array a[n].
+2- make for loop from j=0 to n and nested for loop for i=0 to n.
+3-here we put the condition (j!=i) and calculate the value of b[j] by creating a variable using multiplication of elements
+
+
+
+
