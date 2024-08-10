@@ -8,4 +8,14 @@ condition:-
 
  algorithm:-
 
- 
+ 1 : initially we take input of no of element in array with missing element
+ 2 : then create a vector of n-1 element ( in which missing element is absent )
+ 3 : then we create a function missingelement(vector<int> &a,int n) which return integer value
+ 4 : here we initialize ans=0;
+ 5 : after that  we are taking xor of ans with all the element of a vector
+ 6 : calculate min element of the array and store in startele then calculate lastele also
+ 7 : after that another for loop :-
+        for(i=firstele  to  lastele){
+               ans=ans^i;}
+ 8 : then this function return the value of missing element               
+                          

@@ -23,9 +23,9 @@ int lastele = firstele + n-1;
 int main(){
 
     int n;
-    cout<<"number of elements in your array with missing element "<<endl;
+    cout<<"number of elements in your array"<<endl;
     cin>>n;
-    vector<int> a(n-1);
+    vector<int> a(n);
     for(int i=0;i<n-1;i++){
         cin>>a[i];    } 
         cout<<endl;
