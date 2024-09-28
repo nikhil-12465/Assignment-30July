@@ -76,3 +76,4 @@ if(missing_num!=-1){
 
 return 0;
 }
+
