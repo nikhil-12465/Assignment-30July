@@ -1,3 +1,5 @@
+
+// best case of binary search :
 #include <cstdlib>
 #include <iostream>
 #include <chrono>
